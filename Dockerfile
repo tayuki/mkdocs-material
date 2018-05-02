@@ -30,6 +30,7 @@ COPY package.json package.json
 COPY README.md README.md
 COPY requirements.txt requirements.txt
 COPY setup.py setup.py
+COPY sitecustomize.py /usr/lib/python2.7/site-packages
 
 # Perform build and cleanup artifacts
 RUN \
